@@ -1,8 +1,6 @@
 class LoansController < ActionController::API
 
-  rescue_from ActiveRecord::RecordNotFound do |exception|
-    render json: 'not_found', status: :not_found
-  end
+	include ExceptionHandler
 
   def index
     render json: Loan.all
