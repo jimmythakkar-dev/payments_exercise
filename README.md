@@ -11,4 +11,4 @@ I have also added the outstanding balance for a given loan and vended it in JSON
 
 All the payments for a given loan can be viewed at /loans/:loan_id/payments which is a get request and for viewing the individual payment of a loan please call /loans/:loan_id/payments/:id which is also a get request.
 
-I also also specs for PaymentsController.
+I have also written specs for PaymentsController.
